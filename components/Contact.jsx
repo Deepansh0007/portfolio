@@ -7,15 +7,10 @@ const Contact = () => {
 		email:'',
 		message: '',
 	})
-
-	//template_0uzayam
-	//service_8qvx4cx
-	//F4gQDjaFJzjTNN0V6
-
 	const handleChange = (e) => {
 	}
 	return (
-		<div className="min-h-screen py-10">
+		<div className="min-h-max py-10" id="contact">
 			<div className="flex items-center justify-center flex-col">
 				<h1 className="text-3xl font-bold contact-sec__main">CONTACT ME</h1>
 				<div className="form-control w-full max-w-lg mt-10 bg-slate-200 p-10 rounded-lg">
