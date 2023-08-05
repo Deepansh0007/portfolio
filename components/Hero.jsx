@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex justify-center items-center flex-col min-h-screen mx-auto px-10'>
+    <div data-aos = "fade-up" className='flex justify-center place-items-center flex-col min-h-screen px-10'>
         <h1 className="text-5xl font-bold tracking-wider">HEY I'AM DEEPANSH</h1>
         <h1 className="text-5xl font-bold tracking-wide mt-5">I'AM A FULL STACK DEVELOPER</h1>
         

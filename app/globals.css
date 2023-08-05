@@ -13,28 +13,6 @@
   transform: translateX(-50%);
   border-radius: 5px;
 }
-.project-sec__main::after {
-  content: '';
-  position: absolute;
-  top: calc(200% + 7rem);
-  height: 5px;
-  width: 3rem;
-  background: #7843e9;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 5px;
-}
-.contact-sec__main::after {
-  content: '';
-  position: absolute;
-  top: calc(300% + 9.5rem);
-  height: 5px;
-  width: 3rem;
-  background: #7843e9;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 5px;
-}
 .card_bg{
   background: rgba(153,153,153,.2);
 }

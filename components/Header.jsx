@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 const Header = () => {
 	return (
-        <header className="mx-auto bg-slate-200 px-10">
-		<div className="place-items-center p-2 md:flex md:justify-between md:py-5 max-w-[1448px] font-bold">
+        <header className="bg-slate-100 px-10">
+		<div className="place-items-center p-2 md:flex md:justify-between md:py-5 font-bold">
 			<div className="grid justify-center text-lg text-secondary">
 				<p>DEEPANSH</p>
 			</div>
