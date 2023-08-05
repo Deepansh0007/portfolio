@@ -1,9 +1,11 @@
-import About from '@/components/About'
-import Contact from '@/components/Contact'
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import Projects from '@/components/Projects'
+import dynamic from 'next/dynamic'
 import React from 'react'
+
+const Header = dynamic(() => import('@/components/Header'));
+const Hero = dynamic(() => import('@/components/Hero'));
+const About = dynamic(() => import('@/components/About'));
+const Projects = dynamic(() => import('@/components/Projects'));
+const Contact = dynamic(() => import('@/components/Contact'));
 
 const Home = () => {
   return (
