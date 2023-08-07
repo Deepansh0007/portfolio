@@ -6,6 +6,7 @@ const Hero = dynamic(() => import('@/components/Hero'));
 const About = dynamic(() => import('@/components/About'));
 const Projects = dynamic(() => import('@/components/Projects'));
 const Contact = dynamic(() => import('@/components/Contact'));
+const Footer = dynamic(() => import('@/components/Footer'));
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <About/>
     <Projects/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const Header = () => {
 	return (
-        <header className="bg-slate-100 px-10">
+        <header className="px-10">
 		<div className="place-items-center p-2 md:flex md:justify-between md:py-5 font-bold">
 			<div className="grid justify-center text-lg text-secondary">
 				<p>DEEPANSH</p>

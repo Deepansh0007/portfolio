@@ -10,7 +10,7 @@ const Project = ({ title, description, image, link }) => {
         </div>
         <div data-aos = "fade-right" className="lg:mt-10 mt-5">
           <h1 className="font-semibold text-3xl lg:text-left text-center">{title}</h1>
-          <div className="leading-8 text-lg my-8">{description}</div>
+          <div className="leading-8 text-lg mb-8 mt-5">{description}</div>
           <a href={link} className="px-8 bg-primary rounded-xl text-white py-3">Live link</a>
         </div>
       </div>
@@ -18,17 +18,13 @@ const Project = ({ title, description, image, link }) => {
 };
 const Projects = () => {
 	return (
-		<div id="projects" className="bg-slate-50 lg:p-10 p-5">
+		<div id="projects" className="bg-[#fafafa] lg:p-10 p-5">
 			<div className="flex items-center justify-center flex-col">
 				<h1 data-aos="zoom-in" className="text-3xl font-bold">
 					PROJECTS
 				</h1>
-				<Project title="Metaverse" image={metaverse} description="fdscbsadkverfkkfvbaukrbkvbauhtf tf tyyyyyyyyy yyyyy yyyyyyyy yycdtydtyhhhhhhhhh
-        hhhhhhhhhhhhhhhhhhhhhhhzzzzzh kuhuibgigyy ugyugbyufoyy ygygyofyfyf iuguing8norf" link= "https://multiversemadness.netlify.app" />
-        <Project title="Metaverse" image={metaverse} description="fdscbsadkverfkkfvbaukrbkvbauhtf tf tyyyyyyyyy yyyyy yyyyyyyy yycdtydtyhhhhhhhhh
-        hhhhhhhhhhhhhhhhhhhhhhhzzzzzh kuhuibgigyy ugyugbyufoyy ygygyofyfyf iuguing8norf" link= "https://multiversemadness.netlify.app" />
-        <Project title="Metaverse" image={metaverse} description="fdscbsadkverfkkfvbaukrbkvbauhtf tf tyyyyyyyyy yyyyy yyyyyyyy yycdtydtyhhhhhhhhh
-        hhhhhhhhhhhhhhhhhhhhhhhzzzzzh kuhuibgigyy ugyugbyufoyy ygygyofyfyf iuguing8norf" link= "https://multiversemadness.netlify.app" />
+				<Project title="Metaverse" image={metaverse} description="I re-created a Metaverse concept website landing page using Next.js and Framer Motion. It was a great experience for me to build this project." link= "https://multiversemadness.netlify.app" />
+        <Project title="Promedia" image={metaverse} description="Promedia is a platform that lets the users to effortlessly showcase their projects online." link= "https://multiversemadness.netlify.app" />
 			</div>
 		</div>
 	);

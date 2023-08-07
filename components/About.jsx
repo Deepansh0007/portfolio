@@ -7,7 +7,7 @@ const Card = ({text}) =>{
 }
 const About = () => {
   return (
-    <div id='about' className='bg-slate-200 py-10'>
+    <div id='about' className='py-10'>
     <div className='flex items-center justify-center flex-col'>
         <h1 data-aos= "zoom-in" className='text-3xl font-bold'>ABOUT ME</h1>
         <p data-aos= "fade-up" className='mt-10 md:text-xl md:px-10 px-5'>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>

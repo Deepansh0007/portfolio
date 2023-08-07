@@ -1,8 +1,8 @@
 import "./globals.css";
-import {Inter} from "next/font/google";
+import {Source_Sans_3} from "next/font/google";
 import {AOSInit} from "@/aos";
 
-const inter = Inter({subsets: ["latin"]});
+const font = Source_Sans_3({subsets: ["latin"]});
 
 export const metadata = {
 	title: "Create Next App",
@@ -14,7 +14,7 @@ export default function RootLayout({children}) {
 		<html lang="en">
 			<AOSInit />
 			<body>
-				<main className={`${inter.className} max-w-[1440px] mx-auto`}>
+				<main className={`${font.className} max-w-[1440px] mx-auto`}>
 					{children}
 				</main>
 			</body>
