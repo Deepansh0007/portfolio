@@ -19,6 +19,3 @@
 .header_links li:hover{
  color: #7843e9;
 }
-.hero_main{
-  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("../public/bg.svg");
-}
