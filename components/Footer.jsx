@@ -12,9 +12,9 @@ const Footer = () => {
         <h1 className='text-xl font-bold text-white'>DEEPANSH</h1>
         <div className='h-5 w-max flex gap-5'>
             <a href='https://github.com/Deepansh0007'><Image src = {github} alt="github"/></a>
-            <a href=''><Image src = {instagram} alt="instagram"/></a>
-            <a href=''><Image src = {linkedin} alt="linkedin"/></a>
-            <a href=''><Image src = {twitter} alt="twitter"/></a>
+            <a href='https://www.instagram.com/d_pansh_'><Image src = {instagram} alt="instagram"/></a>
+            <a href='https://lnkd.in/gPz3dD_x'><Image src = {linkedin} alt="linkedin"/></a>
+            <a href='https://twitter.com/Deepansh_001'><Image src = {twitter} alt="twitter"/></a>
         </div>
         
     </footer>

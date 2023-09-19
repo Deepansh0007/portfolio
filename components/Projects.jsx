@@ -23,7 +23,7 @@ const Projects = () => {
 	return (
 		<div id="projects" className="bg-[#fafafa] lg:p-10 p-5">
 			<div className="flex items-center justify-center flex-col">
-				<h1 data-aos="zoom-in" className="text-3xl font-bold">
+				<h1 className="text-3xl font-bold">
 					PROJECTS
 				</h1>
 				<Project title="Metaverse" image={metaverse} description="I re-created a Metaverse concept website landing page using Next.js and Framer Motion. It was a great experience for me to build this project." link= "https://multiversemadness.netlify.app" />

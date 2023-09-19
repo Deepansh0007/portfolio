@@ -17,5 +17,8 @@
   background: rgba(153,153,153,.2);
 }
 .header_links li:hover{
- color: #7843e9;
+ color: #2B84EA;
+}
+.bg{
+  background: linear-gradient(45deg,#02042b,#02042b 50%);
 }

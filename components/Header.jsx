@@ -12,12 +12,12 @@ const Header = () => {
 	return (
 		
         <header>
-		<div className="flex justify-between py-5 font-bold px-10">
-			<div className="grid justify-center text-lg text-secondary">
+		<div className="flex justify-between py-5 font-bold px-10 bg">
+			<div className="grid justify-center text-xl text-white">
 				<p>DEEPANSH</p>
 			</div>
 			<nav>
-				<ul className=" hidden sm:flex sm:justify-center gap-8 text-md text-secondary header_links">
+				<ul className=" hidden sm:flex sm:justify-center gap-8 text-lg text-white header_links">
 					<li>
 						<Link href="/">HOME</Link>
 					</li>
