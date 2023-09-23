@@ -8,7 +8,7 @@ import linkedin from "../public/linkedin.svg";
 
 const Footer = () => {
   return (
-    <footer className='p-5 lg:p-10 bg-[#333333] flex justify-between'>
+    <footer className='p-5 lg:p-10 bg flex justify-between'>
         <h1 className='text-xl font-bold text-white'>DEEPANSH</h1>
         <div className='h-5 w-max flex gap-5'>
             <a href='https://github.com/Deepansh0007'><Image src = {github} alt="github"/></a>

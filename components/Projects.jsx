@@ -14,7 +14,7 @@ const Project = ({ title, description, image, link }) => {
         <div data-aos = "fade-right" className="lg:mt-10 mt-5">
           <h1 className="font-semibold text-3xl lg:text-left text-center">{title}</h1>
           <div className="leading-8 text-lg mb-8 mt-5">{description}</div>
-          <a href={link} className="px-8 bg-primary rounded-xl text-white py-3">Live link</a>
+          <a href={link} className="px-8 bg-[#2B84EA] rounded-xl text-white md:text-xl py-3">Live link</a>
         </div>
       </div>
   );
